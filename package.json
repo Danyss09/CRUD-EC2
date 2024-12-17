@@ -1,0 +1,23 @@
+{
+    "name": "user-crud-api",
+    "version": "1.0.0",
+    "description": "Basic CRUD API for managing users with MySQL",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "REST",
+        "API",
+        "CRUD",
+        "MySQL",
+        "Docker"
+    ],
+    "author": "Daniela",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mysql2": "^3.11.5"
+    }
+}
